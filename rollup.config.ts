@@ -1,6 +1,7 @@
 import typescript from 'rollup-plugin-typescript2';
+import {RollupFileOptions} from "rollup";
 
-export default {
+const config: RollupFileOptions = {
   input: 'main.ts',
   plugins: [typescript()],
   output: {
@@ -9,3 +10,5 @@ export default {
   },
   external: ['lodash']
 }
+
+export default config;
