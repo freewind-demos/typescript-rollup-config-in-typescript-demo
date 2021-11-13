@@ -2,7 +2,8 @@
   "compilerOptions": {
     "strict": true,
     "moduleResolution": "node",
-    "declaration": true
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
   },
   "files": [
     "hello.ts"

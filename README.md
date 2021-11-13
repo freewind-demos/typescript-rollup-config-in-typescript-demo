@@ -25,3 +25,6 @@ rollup.config.ts (4:12)
                ^
 5:   input: 'main.ts',
 ```
+
+## Update:
+发现可以用一个中间rollup config wrapper再包一层达到效果，更新了代码
